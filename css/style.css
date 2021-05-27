@@ -1,0 +1,250 @@
+:root {
+  --blue: #2196f3;
+  --black: #212121;
+  --light-grey: #757575;
+  --very-light-grey: #f5f4fa;
+  --grey: #2f303a;
+  --white: #fff;
+  --main-font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1200px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* header styles */
+.header {
+  background-color: var(--white);
+}
+/* logo*/
+.main-logo {
+  font-family: var(--logo-font);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.173;
+  letter-spacing: 0.03em;
+}
+
+.first-part-of-main-logo {
+  color: var(--blue);
+}
+
+/* nav list */
+.nav-links {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.172;
+  letter-spacing: 0.02em;
+}
+
+/* contact-list */
+.contact-links {
+  color: var(--light-grey);
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.172;
+  letter-spacing: 0.02em;
+}
+
+/* изменение цвета при наведении */
+.nav-links:focus,
+.nav-links:hover,
+.contact-links:focus,
+.contact-links:hover {
+  color: var(--blue);
+}
+
+/* Основная часть */
+body {
+  font-family: var(--main-font);
+  color: var(--black);
+}
+
+/* Секция - главный посыл */
+.service {
+  background-color: var(--grey);
+}
+
+.main-message {
+  color: white;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.order-service-button {
+  font-family: var(--main-font);
+  background-color: var(--blue);
+  color: white;
+  font-size: 16px;
+  line-height: 1.875;
+  font-weight: 700;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 32px;
+  cursor: pointer;
+}
+
+/* what-we-do */
+.what-we-do {
+  background-color: var(--white);
+}
+
+.what-we-do-headers {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.172;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.what-we-do-descriptions {
+  color: var(--light-grey);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+
+.what-we-do-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.171;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Наша команда */
+.our-team {
+  background-color: var(--very-light-grey);
+}
+
+.our-team-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.171;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.our-team-members {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.171;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.our-team-member-positions {
+  color: var(--light-grey);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.171;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* футтер */
+footer {
+  background-color: var(--grey);
+}
+
+.second-part-of-main-logo {
+  color: #fff;
+}
+
+.address-color {
+  color: #fff;
+}
+
+.footer-contact-links {
+  color: var(--light-grey);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+
+.address-color:focus,
+.address-color:hover {
+  color: var(--blue);
+}
+
+.footer-contact-links:focus,
+.footer-contact-links:hover {
+  color: var(--blue);
+}
+
+/* PORTFOLIO PAGE */
+.all-projects {
+  background-color: var(--white);
+}
+
+.project-buttons {
+  font-family: var(--main-font);
+  background-color: var(--very-light-grey);
+  color: #000;
+  font-size: 16px;
+  line-height: 1.625;
+  font-weight: 500;
+  border: 0;
+  border-radius: 5px;
+  padding: 6px 22px;
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.project-buttons:hover,
+.project-buttons:focus {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.project-headers {
+  color: var(--black);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-types {
+  color: var(--light-grey);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+}
