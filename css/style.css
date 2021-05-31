@@ -388,6 +388,10 @@ footer {
   margin-bottom: 0px;
 }
 
+.project-about {
+  padding: 20px 24px 20px 24px;
+}
+
 .project-headers {
   color: var(--black);
   font-style: normal;
@@ -395,7 +399,7 @@ footer {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin: 20px 24px 4px 24px;
+  margin-bottom: 4px;
 }
 
 .project-types {
@@ -405,5 +409,4 @@ footer {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
-  margin: 0 24px 20px 24px;
 }
